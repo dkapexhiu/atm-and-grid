@@ -1,13 +1,3 @@
-#### 2. Build a reusable React Grid component that allows the user to filter the displayed data
-- Don't use an existing grid component from the internet!
-- Rows should be passed in as an array of objects, each object contains the data for one row: `[{col1: 'React', colb: 2, xyz: 'Test'}]`
-- Make it look a bit nicer than the standard browser tables
-- Simple text input to filter records (text), only display rows that partially match the filter
-
-#### 3. Build a page in the frontend that uses the Grid to display data that is loaded from the server
-- Create an endpoint in the server that returns some dummy data as JSON (/getData)
-- The data should be displayed in the Grid under /showData in the frontend
-
 ###This is a test project.
 
 To make it run:
