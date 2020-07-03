@@ -1,0 +1,33 @@
+{
+  "name": "atm",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "prestart": "npm run build",
+    "build": "babel src -d lib --copy-files",
+    "lint": "eslint --cache ./src ./spec",
+    "babel": "babel-node index.js"
+  },
+  "engines": {
+    "node": "10.20.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2016": "^6.24.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "documentation": "^3.0.4",
+    "ejs": "~2.5.7",
+    "eslint": "^3.19.0",
+    "express": "~4.15.5",
+    "jasmine": "^2.6.0",
+    "mongodb": "^2.2.33",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
